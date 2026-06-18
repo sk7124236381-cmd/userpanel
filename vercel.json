@@ -2,6 +2,7 @@
   "cleanUrls": true,
   "trailingSlash": false,
   "rewrites": [
-    { "source": "/(.*)", "destination": "/userpanel.html" }
+    { "source": "/", "destination": "/userpanel.html" },
+    { "source": "/userpanel", "destination": "/userpanel.html" }
   ]
 }
